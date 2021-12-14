@@ -1,4 +1,4 @@
-# Proyecto Programación Web 1 
+# Programación Web 1 - proyecto
  
 Roberto Del Rio  
 Cesar Otero  
