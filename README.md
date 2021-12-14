@@ -1,4 +1,4 @@
-# Proyecto-Programacion-WEB-I  
+# Proyecto
 
 Programación Web 1  
 Alejandra Sánchez  
