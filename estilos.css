@@ -40,3 +40,144 @@
     background-color: #ddd;
     color: black;
   }
+
+
+  /* Estilos para la pagina de Gatos */
+
+  @font-face {
+    font-family: title; 
+    src: url(resource/fonts/title.ttf);    
+    }
+@font-face {
+    font-family: paragraph;       
+    src: url(resource/fonts/paragraph.otf);        
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        margin: 0px;
+      }
+      
+
+      .headerr {
+        background-color: #f1f1f1;
+        padding: 150px 0px 100px 0;
+        text-align: center;
+        background-image: linear-gradient(rgba(231, 238, 238, 0.5), rgba(249, 245, 255, 0.5)), url("https://www.purina.es/sites/default/files/2018-01/gato-jugando-en-la-hierba.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+      }
+      
+      .topna {
+        overflow: hidden;
+        background: linear-gradient(271deg,#FDC4DE 10%,#E6C5FC 50%,#D6C6FB 70%,#C6EEFA 94%);
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        font-family: title; 
+      }
+      .topna a {
+        float: left;
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+      }
+      
+      .topna a:hover {
+        background-color: rgb(255, 255, 255);
+        color: black;
+      }
+      h1.title{
+        background: linear-gradient(271deg,#4e3a2a 30%,rgb(146, 135, 123) 50%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-size: 3em;
+          text-align: center;
+          font-family: title;
+
+      }
+
+    h2.section{
+            background: linear-gradient(271deg,#f191e9 30%,rgb(190, 128, 248) 50%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2em;
+            text-align: center;
+            font-family: title;
+    }
+
+    p.text{
+        font-family: paragraph;
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 0px 50px;
+    }
+
+    img.right{
+        float: right;
+        width: 20%;
+        height: 50%;
+        padding: 15px 30px;
+    }
+
+    img.left{
+        float: left;
+        width: 20%;
+        height: 50%;
+        padding: 15px 30px;
+    }
+
+    img.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    li.list{
+        font-family: paragraph;
+        font-size: 1.3em;
+        text-align: justify;
+        padding: 0px ;
+    }
+
+    .footer{
+        background-color: #f1f1f1;
+        padding: 10px;
+        text-align: center;
+        background-image: linear-gradient(rgba(231, 238, 238, 0.5), rgba(249, 245, 255, 0.5)), url("https://buenavibra.es/wp-content/uploads/2016/08/mother_and_kitten_19.jpg");
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    b.highlighter{
+        font-family: paragraph;
+        font-size: 1.5em;
+        text-align: justify;
+        padding: 0px ;
+
+    }
+      
+    a:link.links {
+      color: rgb(59, 98, 226);
+    }
+    
+    /* mouse over link */
+    a:hover.links {
+      color: rgb(176, 88, 218);
+    }
+
+    .correo{
+      padding: 30px;
+      font-size: 1.3em;
+    }
