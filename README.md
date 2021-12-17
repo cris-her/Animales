@@ -1,7 +1,7 @@
 # Programación web 1 - proyecto
  
 Roberto Del Rio  
-Cesar Otero  
+César Otero  
 Alejandra Sánchez  
 Cristofer Hernández  
 
