@@ -181,3 +181,81 @@
       padding: 30px;
       font-size: 1.3em;
     }
+
+/* Reptiles UwU */
+
+
+/* Letras Reptilianas */
+
+@font-face {
+  font-family: RepTitulo; 
+  src: url(resource/fonts/Reptiliana.ttf); ;   
+  }
+
+/* Estilos GGG */
+.headerR {
+  background-color: #f0f0f0;
+  padding: 150px 0px 150px 0;
+  background-image: radial-gradient(rgba(4, 5, 5, 0.404), rgba(230, 255, 8, 0.253)), url("https://static.dw.com/image/59194018_403.jpg");
+  height: 100%;
+  /* El borde lo saqué de esta página: https://www.cssmatic.com/es/border-radius */
+  border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border: 0px solid #000000;
+  background-size: cover;
+}
+
+/* Textos */
+.textoR1{
+
+  padding: 2px;
+  font-size: 3em;
+  color: rgba(180, 107, 12, 0.829);
+  text-align: center;
+  font-family: RepTitulo;
+}
+
+
+/* Tabla reptiles */
+
+tr.textT{
+  font-family: paragraph;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 0px 50px;
+}
+
+
+/* El degradado lo saqué de esta página: https://www.colorzilla.com/gradient-editor/ */
+
+.fondoR{
+  background: linear-gradient(135deg, rgba(174,234,252,0.65) 0%,rgba(174,234,252,0.56) 20%,rgba(5,171,224,0.29) 79%,rgba(5,171,224,0.2) 100%);
+}
+
+/* Barra navegación Reptiles Voy a reutilizar el de Ale, porque va bien con el fondo */
+
+.topna b {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.topna b:hover {
+  background-color: rgb(252, 141, 15);
+  color: black;
+}
+
+h3.section{
+  background:  linear-gradient(135deg, rgb(242,100,0) 1%,rgb(255,124,0) 56%,rgb(252,195,40) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+  text-align: center;
+  font-family: title;
+}
+
