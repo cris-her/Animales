@@ -259,3 +259,114 @@ h3.section{
   font-family: title;
 }
 
+
+
+/* LOMITOS UuU */
+
+/* Fuentes lomitos */
+
+@font-face{
+  font-family: TituloPrincipal;
+  src: url(resource\fonts\PerritoPortada.ttf);
+}
+
+@font-face{
+  font-family: TipografiaTextoP;
+  src: url(resource\fonts\CaviarDreams.ttf);
+}
+
+/* Fondo Pricipal */
+.fondoP{
+  background: linear-gradient(to right, rgb(17, 67, 87), rgb(242, 148, 146));
+}
+
+/* Portada pincipal*/
+
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{
+  height: 900px;}
+  
+header {
+	background-color: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 90% 90% / 30%;
+}
+
+.PortadaPrincipalLomito{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+  background-image: url("https://dogmomo.com/blog//wp-content/uploads/2020/02/perros.jpg");
+	
+}
+
+h1 {
+	font-family: TituloPrincipal;
+	font-size: 20px;
+	margin-bottom: 1px;
+}
+
+h3{
+	font-family: TituloPrincipal;
+  font-size: 130px;
+	margin-bottom: 1px;
+}
+
+.botonP1 {
+	border: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 black;
+}
+
+.pulsarBotonP1{
+	cursor: pointer;
+}
+
+/* Barra de referencias, Aquí volví a reutilizar el codigo de Ale  */
+
+.topnaP {
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(41, 128, 185), rgb(109, 213, 250), rgb(255, 255, 255));
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: title; 
+}
+
+.tablaP1{
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Section P */
+
+.generalP{
+  font-family: TituloPrincipal;
+  font-size: 35px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.textoP1{
+  font-family: TipografiaTextoP;
+  font-size: 25px;
+  text-align: justify;
+  color: #f2f2f2;
+  padding: 10px;
+}
+
+
